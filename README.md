@@ -1,9 +1,7 @@
 ## Simpl To-Do API
 This is the Git repository for Simpl To-Do's MongoDB and Express.js API. This API will provide a database for the Simpl To-Do single-page application, which will allow authenticated users to create, read, update and delete their to-do list items.
 
-### ERD
-
-[ERD](https://imgur.com/r6gCbqO)
+### [ERD](https://imgur.com/r6gCbqO)
 
 ### Technologies Used
 - JavaScript
@@ -26,6 +24,15 @@ This is the Git repository for Simpl To-Do's MongoDB and Express.js API. This AP
 | GET    | `/todos/:id/watch`     | `todos#watch`     |
 
 All data returned from API actions is formatted as JSON.
+
+### Dependencies
+
+Install with `npm install`.
+
+- express
+- mongoose
+
+Update the versions in `package.json` by replacing all versions with a glob `(*)` and running `npm update --save && npm update --save-dev`. You may wish to test these changes by deleting the node_modules directory and running `npm install`. Fix any conflicts.
 
 ### Unsolved Issues for Future Iterations
 - Test with client-side
