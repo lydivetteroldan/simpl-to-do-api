@@ -44,5 +44,5 @@ Update the versions in `package.json` by replacing all versions with a glob `(*)
 - Add extra features
 
 ## Links
-- Simpl To-Do Client repository: https://github.com/lydivetteroldan/simpl-to-do-api
-- Simpl To-Do Client website: https://lydivetteroldan.github.io/simpl-to-do-api
+- Simpl To-Do repository: https://github.com/lydivetteroldan/simpl-to-do
+- Simpl To-Do website: https://lydivetteroldan.github.io/simpl-to-do
