@@ -1,7 +1,11 @@
 ## Simpl To-Do API
 This is the Git repository for Simpl To-Do's MongoDB and Express.js API. This API will provide a database for the Simpl To-Do single-page application, which will allow authenticated users to create, read, update and delete their to-do list items.
 
-### [ERD](https://imgur.com/r6gCbqO)
+### Planning & Problem-Solving
+
+I will build this API using MongoDB and Express.js following software design best practices. Each feature will be created individually, tested and refactored as necessary.
+
+You can view the ERD for this project [here](https://imgur.com/r6gCbqO).
 
 ### Technologies Used
 - JavaScript
@@ -40,5 +44,5 @@ Update the versions in `package.json` by replacing all versions with a glob `(*)
 - Add extra features
 
 ## Links
-- Simpl To-Do Client repository: [Coming Soon]
-- Simpl To-Do Client website: [Coming Soon]
+- Simpl To-Do Client repository: https://github.com/lydivetteroldan/simpl-to-do-api
+- Simpl To-Do Client website: https://lydivetteroldan.github.io/simpl-to-do-api
