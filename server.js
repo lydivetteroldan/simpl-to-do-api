@@ -23,7 +23,7 @@ app.use(middleware['404'])
 // error handlers
 app.use(middleware['error-handler'])
 
-const debug = require('debug')('simpl-to-do:server')
+const debug = require('debug')('simpl-to-do-api:server')
 const http = require('http')
 
 /**

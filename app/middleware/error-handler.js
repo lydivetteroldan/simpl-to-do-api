@@ -1,6 +1,6 @@
 'use strict'
 
-const debug = require('debug')('simpl-to-do:error-handler')
+const debug = require('debug')('simpl-to-do-api:error-handler')
 
 const errorHandler = (err, req, res, next) => {
   // jshint unused:false

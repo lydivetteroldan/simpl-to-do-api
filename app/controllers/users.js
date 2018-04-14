@@ -1,6 +1,6 @@
 'use strict'
 
-const debug = require('debug')('simpl-to-do:users')
+const debug = require('debug')('simpl-to-do-api:users')
 
 const controller = require('lib/wiring/controller')
 const models = require('app/models')

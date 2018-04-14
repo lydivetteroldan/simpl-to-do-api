@@ -1,6 +1,6 @@
 'use strict'
 
-const mongooseBaseName = 'simpl-to-do'
+const mongooseBaseName = 'simpl-to-do-api'
 
 const environment = process.env.NODE_ENV || 'development'
 const database = {
