@@ -29,7 +29,7 @@ const create = (req, res, next) => {
   const todo = Object.assign(req.body.todo, {
     _owner: req.user._id
   })
-  Todo.create(todo)
+  Todo.create(todo).limit(3)
     .then(todo =>
       res.status(201)
         .json({

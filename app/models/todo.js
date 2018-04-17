@@ -2,19 +2,25 @@
 
 const mongoose = require('mongoose')
 
+const arrayLimit = function (val) {
+  return val.length <= 3
+}
+
 const todoSchema = new mongoose.Schema({
   content: {
     type: String,
     required: true
   },
   done: {
-    type: Boolean
+    type: Boolean,
+    default: false
   },
   _owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     required: true
-  }
+  },
+  validate: [arrayLimit, '{PATH} exceeds the limit of 3']
 }, {
   timestamps: true,
   toJSON: {
