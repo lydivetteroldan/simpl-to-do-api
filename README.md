@@ -14,6 +14,15 @@ You can view the ERD for this project [here](https://imgur.com/r6gCbqO).
 - Mongoose
 - Heroku
 
+### Dependencies
+
+Install with `npm install`.
+
+- express
+- mongoose
+
+Update the versions in `package.json` by replacing all versions with a glob `(*)` and running `npm update --save && npm update --save-dev`. You may wish to test these changes by deleting the node_modules directory and running `npm install`. Fix any conflicts.
+
 ### API End Points
 ### Authentication
 
@@ -353,15 +362,6 @@ HTTP/1.1 204 No Content
 ```
 
 All data returned from API actions is formatted as JSON.
-
-### Dependencies
-
-Install with `npm install`.
-
-- express
-- mongoose
-
-Update the versions in `package.json` by replacing all versions with a glob `(*)` and running `npm update --save && npm update --save-dev`. You may wish to test these changes by deleting the node_modules directory and running `npm install`. Fix any conflicts.
 
 ### Unsolved Issues for Future Iterations
 - Test with client-side
