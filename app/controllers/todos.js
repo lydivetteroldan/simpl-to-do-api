@@ -29,12 +29,13 @@ const create = (req, res, next) => {
   const todo = Object.assign(req.body.todo, {
     _owner: req.user._id
   })
-  Todo.create(todo).limit(3)
+  Todo.create(todo)
     .then(todo =>
       res.status(201)
         .json({
           todo: todo.toJSON({ virtuals: true, user: req.user })
-        }))
+        })
+      )
     .catch(next)
 }
 
